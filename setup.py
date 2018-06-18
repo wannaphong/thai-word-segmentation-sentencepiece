@@ -15,7 +15,7 @@ setup(
     author_email='wannaphong@kkumail.com',
     url='https://github.com/wannaphongcom/thai-word-segmentation-sentencepiece',
     packages=find_packages(),
-    package_data={'pythaipiece':['thai1.model','thai1.vocab']},
+    package_data={'pythaipiece':['thai1.model','thai1.vocab','thai2.model','thai2.vocab']},
     include_package_data=True,
     install_requires=requirements,
     license='Apache Software License 2.0',

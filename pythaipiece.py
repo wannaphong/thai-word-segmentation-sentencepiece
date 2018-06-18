@@ -4,7 +4,7 @@ import os
 import codecs
 import pythaipiece
 templates_dir = os.path.dirname(pythaipiece.__file__)
-template_file = os.path.join(templates_dir, 'thai2.model')
+template_file = os.path.join(templates_dir, 'thai3.model')
 sp = spm.SentencePieceProcessor()
 sp.Load(template_file)
 def segment(text):

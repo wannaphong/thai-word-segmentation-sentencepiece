@@ -12,7 +12,7 @@ def segment(text):
 	listword=[]
 	for i in listdata:
 		if '▁' in i:
-			listword.append('')
+			listword.append(' ')
 			listword.append(i.replace('▁',''))
 		else:
 			listword.append(i)
